@@ -10,6 +10,14 @@ Describe the differences between forks, clones, and branches. When would you use
 
 Forks are githubs way to a clone a repository from the account of one user to another. In other words, using fork you can import any public repository on github into your account. This way you can add your changes to your version.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Offline access
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+share drive;
+easier: No pulling code, works best for a single developer
+Harder: conflicts, versioning , history, open source access
 
  
 
