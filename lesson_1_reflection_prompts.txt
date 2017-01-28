@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+As only the difference were shown, I had to just read through the differences to find the bug rather than reading through the whole file.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+By looking at the history, I can find patterns in my mistakes which I can avoid in future. Also I can find patterns in my programming styles using which I can design the code structure better. 
+    
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+ 
+pros. Those code which can logically concluded goes into the history rather than every change. This way my history is short and provides me with quick progress summary.
+2. Automatically saving a commit can save half changes and incomplete code which might not run when you revert to it
+
+cons. 1.I am at the more risk of loosing changes if committing manually as compared to committing automatically.
+      
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+For logical grouping. Git works better in an environment where a developer is changing multiple files to achieve one task. Whereas google docs, as a document editor will often has a person dedicatedly working on a single document.     
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log
+git diff old new
+
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+With version control, if anything goes wrong, i can always revert back to last working version and hence i need not remember each and every change i made.  
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Save the first draft of this document and experience how git works.
